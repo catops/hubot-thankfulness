@@ -41,6 +41,6 @@ module.exports = (robot) ->
         draft_thanks = encodeURIComponent(message)
         url += "&draft_thanks=#{draft_thanks}"
 
-    message = "To thank @#{username}, visit this URL in Citrix: #{url}"
+    message = "To thank @#{username}, visit this URL: #{url}"
 
     robot.messageRoom res.message.user.name, message

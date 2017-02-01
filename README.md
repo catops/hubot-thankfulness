@@ -19,14 +19,16 @@ Then add **hubot-thankfulness** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
-```
+user1>> Thanks @user2 for all of your help!
+````
+
+Direct message from @hubot to @user1:
 
 ```
-user1>> hubot orly
-hubot>> yarly
+hubot>> To thank @user2, visit this URL: www.thanks.com?email=user1@domain.com&draft_thanks=for+all+of+your+help!
 ```
+
+(Assuming HUBOT_THANKS_URL has been set to www.thanks.com.)
 
 ## Contributing
 
