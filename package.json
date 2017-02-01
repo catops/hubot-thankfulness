@@ -1,10 +1,13 @@
 {
   "name": "hubot-thankfulness",
   "description": "A Hubot script that listens for thank yous",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Andy Chosak <chosak@users.noreply.github.com>",
   "license": "CC0",
-  "keywords": ["hubot","hubot-scripts"],
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/catops/hubot-thankfulness.git"
